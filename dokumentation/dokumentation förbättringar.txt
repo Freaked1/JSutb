@@ -1,0 +1,7 @@
+Ändring 1 (Bild: Ändring 1):
+Lagt till: io.emit('chat message', 'A user connected'); till io.on("connection)..
+Lagt till: io.emit('chat message', 'A user disconnected'); till io.on(disconnect)..
+
+Det fungerade bra på första försöket, resultatet blir att det skrivs i chatten om motpart disconnectar eller connectar.
+Man ser även meddelande från när man själv connectar.
+
